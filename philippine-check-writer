@@ -1,40 +1,211 @@
-ianChrist007 built the Philippine Check Writer app as a free app. This SERVICE is provided by ianChrist007 and is intended for use as is.
-The Philippine Check Writer app is built as a free app. This SERVICE is provided by developer ianChrist007 and is intended for use as is.
+Privacy Policy
+Philippine Check Writer
 
-Information Collection and Use
+Last updated: July 23, 2026
+Effective date: July 23, 2026
 
-The Philippine Check Writer app may collect and store certain information such as:
+1. Introduction
+This Privacy Policy describes how Philippine Check Writer (“App,” “we,” “us,” or “our”) collects, uses, stores, shares, and protects information when you use our mobile application available on Google Play.
 
-Payee names
+The App is developed by ianChrist007 (“Developer”).
 
-Amounts
+Contact us:
+Email: abusyday007@gmail.com
+App package name: com.ianchrist007.philippinecheckwriter
 
-Check details (e.g., date, number, purpose)
+By downloading, installing, or using the App, you agree to this Privacy Policy. If you do not agree, please do not use the App.
 
-This information is stored locally on your device only. We do not collect, transmit, or share any of your personal or financial data to our servers or any third parties.
+2. Overview
+Philippine Check Writer is a check-writing utility for Philippine banking standards. The App lets you:
 
-Data Storage and Security
+Create and preview checks
+Print checks or save them as PDF
+Manage payees, drafts, and check history
+Optionally sign in to sync data across devices (Premium)
+Purchase a Premium subscription through Google Play
+You can use many App features without creating an account. When you are not signed in, your check data is stored locally on your device only.
 
-All data entered into the app remains on your device.
+3. Information We Collect
+3.1 Information you provide directly
+When you use the App, you may enter or store:
 
-We do not have access to your data.
+Data type	Examples	Where stored
+Check information
+Payee name, amount, date, check number, memo/purpose, payment status
+On your device; optionally in the cloud if you have Premium sync enabled
+Payee records
+Name, contact number, address, notes
+On your device; optionally in the cloud (Premium sync)
+Draft checks
+Unfinished check entries
+On your device; optionally in the cloud (Premium sync)
+Print preferences
+Font, amount format, text case, print scale, calibration offsets
+On your device; optionally in the cloud (Premium sync)
+Account information
+Email address, display name, password (if using email sign-up)
+Supabase authentication service
+Support communications
+Information you send when contacting us
+Our email/support systems
+We do not collect or store your bank account numbers, routing numbers, or online banking login credentials. The App does not connect to your bank.
 
-If you uninstall the app or clear app data, all stored information will be permanently deleted.
+3.2 Information collected when you create an account
+If you choose to sign up or sign in, we collect:
 
-Third-Party Services
+Email address
+Display name (if provided during sign-up, or from your Google account profile when using Google Sign-In)
+Authentication credentials (password hash for email accounts; OAuth tokens for Google Sign-In)
+Account authentication is handled through Supabase Auth. Session tokens are stored on your device using encrypted secure storage on Android/iOS.
 
-This app does not use third-party services to collect personal information.
-(If you add ads, analytics, or Google Play Services in the future, you must list them here.)
+3.3 Subscription and billing information
+If you purchase Premium through Google Play:
 
-Children’s Privacy
+Payment processing is handled entirely by Google Play. We do not receive or store your credit card, debit card, or payment method details.
+We receive and store subscription-related information needed to verify your entitlement, including:
+Google Play purchase token
+Product/subscription ID
+Subscription status (active, expired, cancelled)
+Subscription expiry date
+Receipt data returned by the Google Play Developer API
+Your Supabase user ID may be sent to Google Play as an obfuscated account identifier to link purchases to your App account.
 
-This app is not intended for children under 13 years of age. We do not knowingly collect personal data from children.
+3.4 Usage information
+If you are signed in, we track:
 
-Changes to This Privacy Policy
+Monthly check usage count — used to enforce the free-tier limit (5 checks per month for free accounts)
+Premium entitlement status
+This data is stored in our Supabase database and is associated with your account.
 
-We may update this Privacy Policy from time to time. Any changes will be posted on this page.
+3.5 Information we do NOT collect
+We do not intentionally collect:
 
-Contact Us
+Photos, videos, or files from your device gallery
+Location or GPS data
+Contacts from your address book
+Microphone or camera data
+Device browsing history
+Advertising identifiers for targeted advertising
+The App explicitly blocks Android media/storage permissions (READ_MEDIA_IMAGES, READ_MEDIA_VIDEO, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE). PDF files are generated in the App’s private cache and shared only when you choose to use the Android share sheet.
 
-If you have any questions or suggestions about this Privacy Policy, please contact us at:
-📧 abusyday007@gmail.com
+We do not use third-party analytics, crash reporting, or advertising SDKs in the mobile App.
+
+4. How We Use Your Information
+We use the information we collect to:
+
+Provide core App functionality — create, preview, print, and save checks; manage payees, drafts, and history
+Authenticate your account — email/password or Google Sign-In
+Enforce subscription and usage limits — track free-tier check counts and Premium status
+Enable cloud sync — for Premium subscribers, synchronize payees, check history, drafts, and print settings across devices
+Verify purchases — validate Google Play subscriptions through our backend
+Respond to support requests — when you contact us
+Improve reliability and security — maintain and protect the App and its backend services
+Comply with legal obligations — where required by applicable law
+We do not sell your personal information. We do not use your data for targeted advertising.
+
+5. Local Storage vs. Cloud Storage
+Without an account
+All data stays on your device in local app storage (AsyncStorage). Uninstalling the App removes this local data unless you have separately saved PDF exports elsewhere.
+
+With a free account
+Your account credentials and usage count are stored on our Supabase backend. Check data, payees, and history remain primarily on your device unless you upgrade to Premium.
+
+With a Premium account
+When signed in with an active Premium subscription, the App syncs the following to Supabase:
+
+Payees (name, contact, address, notes)
+Check history (payee, amount, date, status, check number, purpose)
+Drafts
+Print settings and calibration preferences
+Sync uses encrypted HTTPS connections. Data is protected by row-level security so each user can access only their own records.
+
+6. How We Share Your Information
+We share information only in these circumstances:
+
+6.1 Service providers
+Provider	Purpose	Data shared
+Supabase
+Authentication, database, cloud sync, backend functions
+Account info, synced app data, subscription records, usage counts
+Google (Sign-In / OAuth)
+Optional account sign-in
+Email, name, OAuth tokens (via Supabase Auth)
+Google Play
+Subscription purchases and verification
+Purchase tokens, product IDs, obfuscated account ID
+These providers process data under their own privacy policies:
+
+Supabase: https://supabase.com/privacy
+Google: https://policies.google.com/privacy
+6.2 When you choose to share
+When you save or share a check PDF using the Android share sheet, you choose which third-party app (email, cloud storage, messaging, etc.) receives the file. We do not control how those apps handle your data.
+
+6.3 Legal requirements
+We may disclose information if required by law, court order, or government request, or if necessary to protect our rights, users, or the public.
+
+6.4 Business transfers
+If the App or its assets are transferred (e.g., acquisition or merger), user information may be transferred as part of that transaction, subject to this Privacy Policy.
+
+7. Data Retention
+Data type	Retention
+Local app data (device)
+Until you delete it in the App or uninstall the App
+Account and profile data
+Until you request account deletion
+Synced cloud data (Premium)
+Until you delete records in the App or request account deletion
+Subscription records
+As long as needed to manage billing, entitlements, and legal/tax obligations
+Usage counts
+Retained per calendar month for quota enforcement
+Support emails
+As long as needed to resolve your inquiry
+When you delete payees, checks, or drafts in the App, deletions are applied locally and, for Premium sync users, propagated to the cloud.
+
+8. Your Rights and Choices
+Depending on your location, you may have the right to:
+
+Access the personal information we hold about you
+Correct inaccurate account information
+Delete your account and associated cloud data
+Export your data (check history and payees are accessible within the App; contact us for additional export assistance)
+Withdraw consent by signing out, disabling sync, or deleting your account
+Cancel subscriptions through Google Play at any time (Premium features remain until the billing period ends)
+How to exercise your rights
+Delete local data: Remove individual records in the App, or uninstall the App.
+
+Delete your account and cloud data: Email us at abusyday007@gmail.com with the subject line “Account Deletion Request” and the email address associated with your account. We will verify your identity and process the request within a reasonable timeframe.
+
+Manage Google Sign-In: You can revoke the App’s access through your Google Account security settings at https://myaccount.google.com/permissions.
+
+Manage subscriptions: Open Google Play → Profile → Payments & subscriptions → Subscriptions.
+
+Philippines — Data Privacy Act of 2012 (RA 10173)
+If you are in the Philippines, you have rights under the Data Privacy Act, including the right to be informed, to access, to object, to erasure or blocking, and to file a complaint with the National Privacy Commission (NPC). Contact us first so we can address your concern.
+
+9. Children’s Privacy
+The App is intended for adults and business users. It is not directed to children under 13 (or the applicable age of digital consent in your country). We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, contact us and we will delete it.
+
+10. Security
+We take reasonable measures to protect your information, including:
+
+HTTPS encryption for all network communication with our backend
+Encrypted secure storage for authentication session tokens on mobile devices
+Row-level security (RLS) in our database so users can access only their own data
+Server-side purchase verification — Premium status is never trusted from the client alone
+No method of transmission or storage is 100% secure. You are responsible for keeping your account credentials confidential and for securing your device.
+
+11. International Data Transfers
+Our backend services (Supabase) may process and store data on servers located outside the Philippines, including in the United States or other countries where our service providers operate. By using the App and creating an account, you acknowledge that your information may be transferred to and processed in those locations, subject to appropriate safeguards.
+
+12. Third-Party Links and Services
+The App may link to external websites or services (for example, Google Play or developer pages). We are not responsible for the privacy practices of those third parties. Review their privacy policies before providing them with information.
+
+13. Changes to This Privacy Policy
+We may update this Privacy Policy from time to time. When we do, we will revise the “Last updated” date at the top of this page. For material changes, we may notify you through the App or by other reasonable means. Continued use of the App after changes take effect constitutes acceptance of the updated policy.
+
+14. Contact Us
+If you have questions, concerns, or requests regarding this Privacy Policy or your personal data, contact:
+
+ianChrist007 — Philippine Check Writer
+Email: abusyday007@gmail.com
