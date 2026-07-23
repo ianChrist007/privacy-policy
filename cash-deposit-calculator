@@ -1,37 +1,122 @@
-# Privacy Policy
+Privacy Policy for PesoTally
+Effective date: [Month Day, Year]
+Last updated: [Month Day, Year]
 
-**Effective Date:** [October28, 2025]
+1. Introduction
+This Privacy Policy describes how PesoTally (“the App,” “we,” “us,” or “our”) handles information when you use our mobile application.
 
-Thank you for using **Cash Deposit Calculator**.
-Your privacy is very important to us. This Privacy Policy explains how our app handles user information.
+Developer: ianChrist007
+App name: PesoTally
+Package name: com.ianchrist007.depositcalculator
+Contact: [your-email@example.com]
 
-## Information Collection
+PesoTally is a Philippine peso cash counting app. We designed it so you can count cash, save records, and manage groups without creating an account and without sending your count data to our servers.
 
-The **Cash Deposit Calculator** app **does not collect, store, or share any personal data**.
+By downloading or using PesoTally, you agree to this Privacy Policy. If you do not agree, please do not use the App.
 
-* We do not require you to create an account.
-* We do not track or log any usage data.
-* We do not access your contacts, location, photos, or any other personal information.
+2. Summary
+Topic	How PesoTally works
+Account required
+No
+Data sent to our servers
+No — we do not operate a backend for your counts
+Where your data is stored
+On your device only
+Analytics or advertising
+None
+Sharing
+Only when you choose to share or export
+3. Information We Collect
+3.1 Information you enter in the App
+PesoTally stores information you provide while using the App. This may include:
 
-## Data Storage
+Cash count data — quantities of bills and coins by denomination, totals, variance, deposit amounts, and expected amounts
+Notes and labels — optional notes on counts, group names, client/register/branch names, and similar labels you type
+Records and history — saved counts with date, mode (Quick, Compare, Deposit, Group), and related details
+Drafts — in-progress counts you save to continue later
+Groups (Collections) — group names and member counts you add
+Presets — saved denomination templates you create or use
+App preferences — settings such as dark mode, collapsed coins, counting mode, and onboarding/job type selection
+This information is stored locally on your device using on-device storage (AsyncStorage). We do not receive, access, or store this data on our servers.
 
-All calculations are done locally on your device. No data is transmitted to any server or third party.
+3.2 Information we do not collect
+PesoTally does not collect:
 
-## Third-Party Services
+Name, email address, phone number, or postal address (unless you include them in a note or shared text yourself)
+Payment or banking credentials
+Location data
+Contacts, photos, camera, microphone, or calendar data
+Device identifiers for advertising or tracking
+Usage analytics, crash reports, or behavioral profiling
+We do not require sign-in or registration.
 
-This app does not use third-party analytics tools, advertising networks, or external integrations that collect data.
+3.3 Automatically collected information
+The App does not automatically collect personal information or send usage data to us.
 
-## Children’s Privacy
+Standard operating system services (for example, Google Play for app installation and updates) may process limited technical information according to their own policies. That processing is outside PesoTally’s control.
 
-Since our app does not collect personal information, it is safe for use by individuals of all ages, including children.
+4. How We Use Information
+Because your data stays on your device, we do not use your cash counts or records for any purpose. The App uses stored data only to:
 
-## Changes to this Privacy Policy
+Calculate totals and variances
+Display your history, reports, drafts, groups, and presets
+Apply your settings and preferences
+Let you export or share content when you request it
+5. How Information Is Shared
+5.1 We do not sell or share your data
+We do not sell, rent, trade, or share your cash count data with third parties for marketing or advertising.
 
-We may update this Privacy Policy if necessary. If changes are made, we will update the "Effective Date" at the top of this page.
+5.2 Sharing you initiate
+You may choose to share information using your device’s native Share feature, for example:
 
-## Contact Us
+A count or group summary as text
+A backup file containing your App data
+When you share, the content is sent through the app or service you select (such as SMS, email, or messaging apps). We do not control how those services handle your data. Review their privacy policies before sharing sensitive financial information.
 
-If you have any questions about this Privacy Policy, you may contact us at:
-📧 \[abusyday007@gmail.com]
+5.3 Backup and restore
+In Settings, you can:
 
----
+Export a backup (JSON text) and share or save it yourself
+Import a backup you previously exported
+Backups are under your control. Store them securely. Anyone with access to a backup file can read the data it contains.
+
+5.4 External links
+The App may open an external link (for example, to the developer’s page on Google Play). Those websites are governed by their own privacy policies, not this one.
+
+6. Data Storage and Security
+Storage location: All App data is stored on your mobile device.
+Retention: Data remains on your device until you delete it (individual records, drafts, groups, presets) or uninstall the App.
+Security: We rely on your device’s built-in security. No method of electronic storage is 100% secure. You are responsible for securing your device (screen lock, encryption where available) and any backups you create or share.
+Uninstalling the App typically removes locally stored App data from your device, unless your device or backup tools retain copies separately.
+
+7. Your Choices and Rights
+You can:
+
+View your data within the App (Records, Reports, Groups, Drafts, Settings)
+Edit or delete individual records, drafts, groups, and custom presets
+Clear stored history from within the App where supported
+Export a backup before changing devices or uninstalling
+Stop using the App and uninstall it at any time
+Because we do not collect or store your data on our servers, we cannot retrieve your counts if you lose your device and have no backup.
+
+If you are in a region with data protection laws (such as the Philippines Data Privacy Act of 2012 or the EU GDPR), and you have questions about your rights, contact us at the email below. For data stored only on your device, most requests can be fulfilled directly by you through the App or by uninstalling it.
+
+8. Children’s Privacy
+PesoTally is a business and utility tool for counting cash. It is not directed at children under 13 (or the minimum age required in your country). We do not knowingly collect personal information from children. If you believe a child has provided information through the App, contact us and we will assist as appropriate. Since data is stored locally, deletion is generally achieved by uninstalling the App or clearing App data on the device.
+
+9. Third-Party Services
+PesoTally is built with standard mobile frameworks (including Expo and React Native). The App, as currently implemented, does not connect to cloud databases, analytics platforms, or advertising networks for your count data.
+
+If we add third-party services in a future update (for example, cloud sync or crash reporting), we will update this Privacy Policy and, where required, the Google Play Data safety section before or when those features are enabled.
+
+10. International Users
+PesoTally is intended for users who count Philippine peso cash. If you use the App outside the Philippines, your information remains stored on your device under your control and applicable local laws may apply to how you handle financial records you create.
+
+11. Changes to This Privacy Policy
+We may update this Privacy Policy from time to time. When we do, we will revise the “Last updated” date at the top. For material changes, we may provide notice in the App or on our listing page. Continued use of the App after changes take effect means you accept the updated policy.
+
+12. Contact Us
+If you have questions or concerns about this Privacy Policy or PesoTally’s data practices, contact:
+
+ianChrist007
+Email: abusyday007@gmail.com
